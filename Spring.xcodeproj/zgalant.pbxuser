@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	1D3623250D0F684500981E51 /* SpringAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 553}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 615}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Spring */ = {
+		activeExec = 0;
+		executables = (
+			82D95E4E12BD7210005A1594 /* Spring */,
+		);
+	};
+	28D7ACF60DDB3853001CB0EB /* SpringViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 637}}";
+			sepNavSelRange = "{905, 0}";
+			sepNavVisRange = "{44, 1069}";
+		};
+	};
+	28D7ACF70DDB3853001CB0EB /* SpringViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {3792, 2288}}";
+			sepNavSelRange = "{2424, 0}";
+			sepNavVisRange = "{2067, 272}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = "Ad Hoc Distribute";
+		activeExecutable = 82D95E4E12BD7210005A1594 /* Spring */;
+		activeSDKPreference = iphoneos4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Spring */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* Spring */,
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 82D95E5612BD722F005A1594 /* Code sense */;
+		executables = (
+			82D95E4E12BD7210005A1594 /* Spring */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					733,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					693,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 317795360;
+			PBXWorkspaceStateSaveDate = 317795360;
+		};
+		perUserProjectItems = {
+			82904ECC12C2D84900A5E177 /* PBXBookmark */ = 82904ECC12C2D84900A5E177 /* PBXBookmark */;
+			82904ECD12C2D84900A5E177 /* PBXBookmark */ = 82904ECD12C2D84900A5E177 /* PBXBookmark */;
+			82904ECE12C2D84900A5E177 /* PBXTextBookmark */ = 82904ECE12C2D84900A5E177 /* PBXTextBookmark */;
+			82904ED312C2D84900A5E177 /* PBXBookmark */ = 82904ED312C2D84900A5E177 /* PBXBookmark */;
+			82904ED412C2D84900A5E177 /* PBXBookmark */ = 82904ED412C2D84900A5E177 /* PBXBookmark */;
+			82904EEE12C31C6700A5E177 /* PBXTextBookmark */ = 82904EEE12C31C6700A5E177 /* PBXTextBookmark */;
+			82904F5C12C3453300A5E177 /* PlistBookmark */ = 82904F5C12C3453300A5E177 /* PlistBookmark */;
+			82EF6FF112F12C28001B2C21 /* PBXBookmark */ = 82EF6FF112F12C28001B2C21 /* PBXBookmark */;
+			82EF6FF212F12C28001B2C21 /* PBXTextBookmark */ = 82EF6FF212F12C28001B2C21 /* PBXTextBookmark */;
+			82F32C7F12C40AB7000AA238 /* PBXTextBookmark */ = 82F32C7F12C40AB7000AA238 /* PBXTextBookmark */;
+			82F32C8012C40AB7000AA238 /* PBXTextBookmark */ = 82F32C8012C40AB7000AA238 /* PBXTextBookmark */;
+			82F32C8112C40AB7000AA238 /* PBXTextBookmark */ = 82F32C8112C40AB7000AA238 /* PBXTextBookmark */;
+			82F32C8212C40AB7000AA238 /* PBXTextBookmark */ = 82F32C8212C40AB7000AA238 /* PBXTextBookmark */;
+			82F32C8312C40AB7000AA238 /* PlistBookmark */ = 82F32C8312C40AB7000AA238 /* PlistBookmark */;
+			82F32C8412C40AB7000AA238 /* PBXTextBookmark */ = 82F32C8412C40AB7000AA238 /* PBXTextBookmark */;
+			82F32C8512C40AB7000AA238 /* PBXTextBookmark */ = 82F32C8512C40AB7000AA238 /* PBXTextBookmark */;
+			82F32C8612C40AB7000AA238 /* PBXTextBookmark */ = 82F32C8612C40AB7000AA238 /* PBXTextBookmark */;
+			82F32C8712C40AB7000AA238 /* PBXTextBookmark */ = 82F32C8712C40AB7000AA238 /* PBXTextBookmark */;
+			82F32CB312C40EDD000AA238 /* PBXTextBookmark */ = 82F32CB312C40EDD000AA238 /* PBXTextBookmark */;
+			82F32CBD12C41289000AA238 /* PBXTextBookmark */ = 82F32CBD12C41289000AA238 /* PBXTextBookmark */;
+			82F32CBE12C41289000AA238 /* PBXBookmark */ = 82F32CBE12C41289000AA238 /* PBXBookmark */;
+		};
+		sourceControlManager = 82D95E5512BD722F005A1594 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	82904ECC12C2D84900A5E177 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 926FDC2C1267FF11005879D8 /* background.png */;
+	};
+	82904ECD12C2D84900A5E177 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 928E5262127A3C020025006B /* winText.png */;
+	};
+	82904ECE12C2D84900A5E177 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92CACD4B10686997006668E6 /* donutDudeSpringViewController.h */;
+		name = "donutDudeSpringViewController.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 909;
+		vrLoc = 3;
+	};
+	82904ED312C2D84900A5E177 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 926FDC301267FF11005879D8 /* icon.png */;
+	};
+	82904ED412C2D84900A5E177 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 926FDCEC12686864005879D8 /* icon@2x.png */;
+	};
+	82904EEE12C31C6700A5E177 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 920B38C01269B8EA0054AF98 /* Level.m */;
+		name = "Level.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2290;
+		vrLoc = 2342;
+	};
+	82904F5C12C3453300A5E177 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 82904F4912C33E5500A5E177 /* Entitlements.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/zgalant/Dropbox/School/iPhone/Spring/Entitlements.plist;
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	82D95E4E12BD7210005A1594 /* Spring */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 1;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Spring;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	82D95E5512BD722F005A1594 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	82D95E5612BD722F005A1594 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	82EF6FF112F12C28001B2C21 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 82904EAA12C2CF0200A5E177 /* dudeRight@2x.png */;
+	};
+	82EF6FF212F12C28001B2C21 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92CACD4C10686997006668E6 /* donutDudeSpringViewController.m */;
+		name = "donutDudeSpringViewController.m: 138";
+		rLen = 0;
+		rLoc = 3339;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 3042;
+	};
+	82F32C7F12C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 928E54C6127B93000025006B /* NewLevelAlert.h */;
+		name = "NewLevelAlert.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 423;
+		vrLoc = 0;
+	};
+	82F32C8012C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 9210C8CA122E054B004DF323 /* PauseMenu.m */;
+		name = "PauseMenu.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1140;
+		vrLoc = 19;
+	};
+	82F32C8112C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 926FDBF01267F026005879D8 /* YouWinView.m */;
+		name = "YouWinView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1123;
+		vrLoc = 390;
+	};
+	82F32C8212C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 928E54C7127B93000025006B /* NewLevelAlert.m */;
+		name = "NewLevelAlert.m: 43";
+		rLen = 0;
+		rLoc = 1298;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 170;
+	};
+	82F32C8312C40AB7000AA238 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D1107310486CEB800E47090 /* Spring-Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = "/Users/zgalant/Dropbox/School/iPhone/Spring/Spring-Info.plist";
+		rLen = 0;
+		rLoc = 9223372036854775808;
+	};
+	82F32C8412C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 926FDC541268462E005879D8 /* ButtonView.m */;
+		name = "ButtonView.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1149;
+		vrLoc = 365;
+	};
+	82F32C8512C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 928E526F127A3FBD0025006B /* InfoView.m */;
+		name = "InfoView.m: 27";
+		rLen = 0;
+		rLoc = 816;
+		rType = 0;
+		vrLen = 1285;
+		vrLoc = 209;
+	};
+	82F32C8612C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* SpringAppDelegate.m */;
+		name = "SpringAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 615;
+		vrLoc = 0;
+	};
+	82F32C8712C40AB7000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* SpringViewController.h */;
+		name = "SpringViewController.h: 39";
+		rLen = 0;
+		rLoc = 905;
+		rType = 0;
+		vrLen = 1069;
+		vrLoc = 44;
+	};
+	82F32CB312C40EDD000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* SpringViewController.m */;
+		name = "SpringViewController.m: 130";
+		rLen = 0;
+		rLoc = 3841;
+		rType = 0;
+		vrLen = 2186;
+		vrLoc = 1174;
+	};
+	82F32CBD12C41289000AA238 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 92CACD4C10686997006668E6 /* donutDudeSpringViewController.m */;
+		name = "donutDudeSpringViewController.m: 143";
+		rLen = 0;
+		rLoc = 3489;
+		rType = 0;
+		vrLen = 1308;
+		vrLoc = 3043;
+	};
+	82F32CBE12C41289000AA238 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 82904EA812C2CEEF00A5E177 /* dudeRight.png */;
+	};
+	920B38C01269B8EA0054AF98 /* Level.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 1716}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{2342, 2290}";
+		};
+	};
+	9210C8CA122E054B004DF323 /* PauseMenu.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {978, 676}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{19, 1140}";
+		};
+	};
+	926FDBF01267F026005879D8 /* YouWinView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {999, 858}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{390, 1123}";
+		};
+	};
+	926FDC541268462E005879D8 /* ButtonView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{365, 1149}";
+		};
+	};
+	928E526F127A3FBD0025006B /* InfoView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 741}}";
+			sepNavSelRange = "{816, 0}";
+			sepNavVisRange = "{209, 1285}";
+		};
+	};
+	928E54C6127B93000025006B /* NewLevelAlert.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 553}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 423}";
+		};
+	};
+	928E54C7127B93000025006B /* NewLevelAlert.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1244, 819}}";
+			sepNavSelRange = "{1298, 0}";
+			sepNavVisRange = "{170, 1246}";
+		};
+	};
+	92CACD4B10686997006668E6 /* donutDudeSpringViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 1157}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{3, 909}";
+		};
+	};
+	92CACD4C10686997006668E6 /* donutDudeSpringViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {911, 5031}}";
+			sepNavSelRange = "{3339, 0}";
+			sepNavVisRange = "{3042, 1383}";
+			sepNavWindowFrame = "{{15, 215}, {750, 558}}";
+		};
+	};
+}

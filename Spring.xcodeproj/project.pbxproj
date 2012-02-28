@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SpringAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SpringAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SpringViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SpringViewController.m */; };
+		82904EA912C2CEEF00A5E177 /* dudeRight.png in Resources */ = {isa = PBXBuildFile; fileRef = 82904EA812C2CEEF00A5E177 /* dudeRight.png */; };
+		82904EAB12C2CF0200A5E177 /* dudeRight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82904EAA12C2CF0200A5E177 /* dudeRight@2x.png */; };
+		82904EE212C2E95C00A5E177 /* dudeLeft.png in Resources */ = {isa = PBXBuildFile; fileRef = 82904EE012C2E95C00A5E177 /* dudeLeft.png */; };
+		82904EE312C2E95C00A5E177 /* dudeLeft@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82904EE112C2E95C00A5E177 /* dudeLeft@2x.png */; };
+		920B37B7126914980054AF98 /* donut.png in Resources */ = {isa = PBXBuildFile; fileRef = 920B37B5126914980054AF98 /* donut.png */; };
+		920B37B8126914980054AF98 /* donut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 920B37B6126914980054AF98 /* donut@2x.png */; };
+		920B37C112691A1F0054AF98 /* menuBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 920B37BF12691A1F0054AF98 /* menuBackground.png */; };
+		920B37C212691A1F0054AF98 /* menuBackground@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 920B37C012691A1F0054AF98 /* menuBackground@2x.png */; };
+		920B37D7126923090054AF98 /* InGameMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B37D6126923090054AF98 /* InGameMenu.m */; };
+		920B37EA12695DE00054AF98 /* BeatLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B37E912695DE00054AF98 /* BeatLevelView.m */; };
+		920B37F41269619D0054AF98 /* LevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B37F31269619D0054AF98 /* LevelView.m */; };
+		920B38C11269B8EA0054AF98 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B38C01269B8EA0054AF98 /* Level.m */; };
+		920B39B0126AF32D0054AF98 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B39AF126AF32D0054AF98 /* Location.m */; };
+		9210C8CB122E054B004DF323 /* PauseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9210C8CA122E054B004DF323 /* PauseMenu.m */; };
+		926FDBF11267F026005879D8 /* YouWinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926FDBF01267F026005879D8 /* YouWinView.m */; };
+		926FDC341267FF11005879D8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC2C1267FF11005879D8 /* background.png */; };
+		926FDC361267FF11005879D8 /* dudeStoppedLeft.gif in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC2E1267FF11005879D8 /* dudeStoppedLeft.gif */; };
+		926FDC371267FF11005879D8 /* dudeStoppedRight.gif in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC2F1267FF11005879D8 /* dudeStoppedRight.gif */; };
+		926FDC381267FF11005879D8 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC301267FF11005879D8 /* icon.png */; };
+		926FDC391267FF11005879D8 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC311267FF11005879D8 /* menu.png */; };
+		926FDC3A1267FF11005879D8 /* spike.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC321267FF11005879D8 /* spike.png */; };
+		926FDC3B1267FF11005879D8 /* spring.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC331267FF11005879D8 /* spring.png */; };
+		926FDC551268462E005879D8 /* ButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926FDC541268462E005879D8 /* ButtonView.m */; };
+		926FDC58126846A4005879D8 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC56126846A4005879D8 /* button.png */; };
+		926FDC59126846A4005879D8 /* buttonPressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC57126846A4005879D8 /* buttonPressed.png */; };
+		926FDC65126850EB005879D8 /* vtcscreamitloud.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC64126850EB005879D8 /* vtcscreamitloud.ttf */; };
+		926FDC701268543F005879D8 /* BigDonut.m in Sources */ = {isa = PBXBuildFile; fileRef = 926FDC6F1268543F005879D8 /* BigDonut.m */; };
+		926FDC76126855BB005879D8 /* bigDonut.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDC75126855BB005879D8 /* bigDonut.png */; };
+		926FDCD312686608005879D8 /* menu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDCD212686608005879D8 /* menu@2x.png */; };
+		926FDCD712686684005879D8 /* bigDonut@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDCD612686684005879D8 /* bigDonut@2x.png */; };
+		926FDCE61268677F005879D8 /* spike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDCE51268677F005879D8 /* spike@2x.png */; };
+		926FDCE912686792005879D8 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDCE712686792005879D8 /* background@2x.png */; };
+		926FDCEA12686792005879D8 /* spring@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDCE812686792005879D8 /* spring@2x.png */; };
+		926FDCED12686864005879D8 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 926FDCEC12686864005879D8 /* icon@2x.png */; };
+		926FDD0C12686CA5005879D8 /* RotatableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926FDD0B12686CA5005879D8 /* RotatableView.m */; };
+		928E5264127A3C020025006B /* winText.png in Resources */ = {isa = PBXBuildFile; fileRef = 928E5262127A3C020025006B /* winText.png */; };
+		928E5265127A3C020025006B /* winText@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 928E5263127A3C020025006B /* winText@2x.png */; };
+		928E5270127A3FBD0025006B /* InfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E526F127A3FBD0025006B /* InfoView.m */; };
+		928E52C3127AC55A0025006B /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E52B8127AC55A0025006B /* NSObject+SBJSON.m */; };
+		928E52C4127AC55A0025006B /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E52BA127AC55A0025006B /* NSString+SBJSON.m */; };
+		928E52C5127AC55A0025006B /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E52BC127AC55A0025006B /* SBJSON.m */; };
+		928E52C6127AC55A0025006B /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E52BE127AC55A0025006B /* SBJsonBase.m */; };
+		928E52C7127AC55A0025006B /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E52C0127AC55A0025006B /* SBJsonParser.m */; };
+		928E52C8127AC55A0025006B /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E52C2127AC55A0025006B /* SBJsonWriter.m */; };
+		928E5344127AD2280025006B /* springLevels.json in Resources */ = {isa = PBXBuildFile; fileRef = 928E5343127AD2280025006B /* springLevels.json */; };
+		928E54C8127B93000025006B /* NewLevelAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = 928E54C7127B93000025006B /* NewLevelAlert.m */; };
+		92AACD65123C1BD60058B59D /* Spike.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AACD64123C1BD60058B59D /* Spike.m */; };
+		92AACD83123C30AB0058B59D /* Donut.m in Sources */ = {isa = PBXBuildFile; fileRef = 92AACD82123C30AB0058B59D /* Donut.m */; };
+		92CACD4A10686983006668E6 /* donutDudeSpringViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92CACD4910686983006668E6 /* donutDudeSpringViewController.xib */; };
+		92CACD4D10686997006668E6 /* donutDudeSpringViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 92CACD4C10686997006668E6 /* donutDudeSpringViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SpringAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SpringAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Spring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SpringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpringViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpringViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpringViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Spring_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring_Prefix.pch; sourceTree = "<group>"; };
+		82904EA812C2CEEF00A5E177 /* dudeRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dudeRight.png; sourceTree = "<group>"; };
+		82904EAA12C2CF0200A5E177 /* dudeRight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dudeRight@2x.png"; sourceTree = "<group>"; };
+		82904EE012C2E95C00A5E177 /* dudeLeft.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dudeLeft.png; sourceTree = "<group>"; };
+		82904EE112C2E95C00A5E177 /* dudeLeft@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dudeLeft@2x.png"; sourceTree = "<group>"; };
+		82904F4912C33E5500A5E177 /* Entitlements.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Entitlements.plist; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Spring-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Spring-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		920B37B5126914980054AF98 /* donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donut.png; sourceTree = "<group>"; };
+		920B37B6126914980054AF98 /* donut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "donut@2x.png"; sourceTree = "<group>"; };
+		920B37BF12691A1F0054AF98 /* menuBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menuBackground.png; sourceTree = "<group>"; };
+		920B37C012691A1F0054AF98 /* menuBackground@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuBackground@2x.png"; sourceTree = "<group>"; };
+		920B37D5126923090054AF98 /* InGameMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InGameMenu.h; sourceTree = "<group>"; };
+		920B37D6126923090054AF98 /* InGameMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InGameMenu.m; sourceTree = "<group>"; };
+		920B37E812695DE00054AF98 /* BeatLevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeatLevelView.h; sourceTree = "<group>"; };
+		920B37E912695DE00054AF98 /* BeatLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeatLevelView.m; sourceTree = "<group>"; };
+		920B37F21269619D0054AF98 /* LevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelView.h; sourceTree = "<group>"; };
+		920B37F31269619D0054AF98 /* LevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelView.m; sourceTree = "<group>"; };
+		920B38BF1269B8EA0054AF98 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
+		920B38C01269B8EA0054AF98 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
+		920B39AE126AF32D0054AF98 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		920B39AF126AF32D0054AF98 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		9210C8C9122E054B004DF323 /* PauseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseMenu.h; sourceTree = "<group>"; };
+		9210C8CA122E054B004DF323 /* PauseMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseMenu.m; sourceTree = "<group>"; };
+		926FDBEF1267F026005879D8 /* YouWinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouWinView.h; sourceTree = "<group>"; };
+		926FDBF01267F026005879D8 /* YouWinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouWinView.m; sourceTree = "<group>"; };
+		926FDC2C1267FF11005879D8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		926FDC2E1267FF11005879D8 /* dudeStoppedLeft.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dudeStoppedLeft.gif; sourceTree = "<group>"; };
+		926FDC2F1267FF11005879D8 /* dudeStoppedRight.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dudeStoppedRight.gif; sourceTree = "<group>"; };
+		926FDC301267FF11005879D8 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		926FDC311267FF11005879D8 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		926FDC321267FF11005879D8 /* spike.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spike.png; sourceTree = "<group>"; };
+		926FDC331267FF11005879D8 /* spring.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spring.png; sourceTree = "<group>"; };
+		926FDC531268462E005879D8 /* ButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonView.h; sourceTree = "<group>"; };
+		926FDC541268462E005879D8 /* ButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonView.m; sourceTree = "<group>"; };
+		926FDC56126846A4005879D8 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
+		926FDC57126846A4005879D8 /* buttonPressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonPressed.png; sourceTree = "<group>"; };
+		926FDC64126850EB005879D8 /* vtcscreamitloud.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vtcscreamitloud.ttf; sourceTree = "<group>"; };
+		926FDC6E1268543F005879D8 /* BigDonut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigDonut.h; sourceTree = "<group>"; };
+		926FDC6F1268543F005879D8 /* BigDonut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigDonut.m; sourceTree = "<group>"; };
+		926FDC75126855BB005879D8 /* bigDonut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bigDonut.png; sourceTree = "<group>"; };
+		926FDCD212686608005879D8 /* menu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu@2x.png"; sourceTree = "<group>"; };
+		926FDCD612686684005879D8 /* bigDonut@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bigDonut@2x.png"; sourceTree = "<group>"; };
+		926FDCE51268677F005879D8 /* spike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spike@2x.png"; sourceTree = "<group>"; };
+		926FDCE712686792005879D8 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		926FDCE812686792005879D8 /* spring@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "spring@2x.png"; sourceTree = "<group>"; };
+		926FDCEC12686864005879D8 /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		926FDD0A12686CA5005879D8 /* RotatableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableView.h; sourceTree = "<group>"; };
+		926FDD0B12686CA5005879D8 /* RotatableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableView.m; sourceTree = "<group>"; };
+		928E5262127A3C020025006B /* winText.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = winText.png; sourceTree = "<group>"; };
+		928E5263127A3C020025006B /* winText@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "winText@2x.png"; sourceTree = "<group>"; };
+		928E526E127A3FBD0025006B /* InfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoView.h; sourceTree = "<group>"; };
+		928E526F127A3FBD0025006B /* InfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoView.m; sourceTree = "<group>"; };
+		928E52B6127AC55A0025006B /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		928E52B7127AC55A0025006B /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		928E52B8127AC55A0025006B /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		928E52B9127AC55A0025006B /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		928E52BA127AC55A0025006B /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		928E52BB127AC55A0025006B /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		928E52BC127AC55A0025006B /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		928E52BD127AC55A0025006B /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		928E52BE127AC55A0025006B /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		928E52BF127AC55A0025006B /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		928E52C0127AC55A0025006B /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		928E52C1127AC55A0025006B /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		928E52C2127AC55A0025006B /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		928E5343127AD2280025006B /* springLevels.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = springLevels.json; sourceTree = "<group>"; };
+		928E54C6127B93000025006B /* NewLevelAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewLevelAlert.h; sourceTree = "<group>"; };
+		928E54C7127B93000025006B /* NewLevelAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewLevelAlert.m; sourceTree = "<group>"; };
+		92AACD63123C1BD60058B59D /* Spike.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spike.h; sourceTree = "<group>"; };
+		92AACD64123C1BD60058B59D /* Spike.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spike.m; sourceTree = "<group>"; };
+		92AACD81123C30AB0058B59D /* Donut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Donut.h; sourceTree = "<group>"; };
+		92AACD82123C30AB0058B59D /* Donut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Donut.m; sourceTree = "<group>"; };
+		92CACD4910686983006668E6 /* donutDudeSpringViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = donutDudeSpringViewController.xib; sourceTree = "<group>"; };
+		92CACD4B10686997006668E6 /* donutDudeSpringViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = donutDudeSpringViewController.h; sourceTree = "<group>"; };
+		92CACD4C10686997006668E6 /* donutDudeSpringViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = donutDudeSpringViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				926FDD1812686E73005879D8 /* Types */,
+				92AACD62123C1BC70058B59D /* Objects */,
+				9210C8C8122E051B004DF323 /* Views */,
+				92CACD4B10686997006668E6 /* donutDudeSpringViewController.h */,
+				92CACD4C10686997006668E6 /* donutDudeSpringViewController.m */,
+				1D3623240D0F684500981E51 /* SpringAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SpringAppDelegate.m */,
+				28D7ACF60DDB3853001CB0EB /* SpringViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SpringViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Spring.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				928E52B5127AC55A0025006B /* JSON */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				926FDC131267FEF9005879D8 /* Images */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				82904F4912C33E5500A5E177 /* Entitlements.plist */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Spring_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				928E5343127AD2280025006B /* springLevels.json */,
+				926FDC64126850EB005879D8 /* vtcscreamitloud.ttf */,
+				92CACD4910686983006668E6 /* donutDudeSpringViewController.xib */,
+				2899E5210DE3E06400AC0155 /* SpringViewController.xib */,
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Spring-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9210C8C8122E051B004DF323 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				920B37F21269619D0054AF98 /* LevelView.h */,
+				920B37F31269619D0054AF98 /* LevelView.m */,
+				9210C8C9122E054B004DF323 /* PauseMenu.h */,
+				9210C8CA122E054B004DF323 /* PauseMenu.m */,
+				926FDBEF1267F026005879D8 /* YouWinView.h */,
+				926FDBF01267F026005879D8 /* YouWinView.m */,
+				920B37E812695DE00054AF98 /* BeatLevelView.h */,
+				920B37E912695DE00054AF98 /* BeatLevelView.m */,
+				928E526E127A3FBD0025006B /* InfoView.h */,
+				928E526F127A3FBD0025006B /* InfoView.m */,
+				928E54C6127B93000025006B /* NewLevelAlert.h */,
+				928E54C7127B93000025006B /* NewLevelAlert.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		926FDC131267FEF9005879D8 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				82904EE012C2E95C00A5E177 /* dudeLeft.png */,
+				82904EE112C2E95C00A5E177 /* dudeLeft@2x.png */,
+				82904EA812C2CEEF00A5E177 /* dudeRight.png */,
+				82904EAA12C2CF0200A5E177 /* dudeRight@2x.png */,
+				928E5262127A3C020025006B /* winText.png */,
+				928E5263127A3C020025006B /* winText@2x.png */,
+				920B37BF12691A1F0054AF98 /* menuBackground.png */,
+				920B37C012691A1F0054AF98 /* menuBackground@2x.png */,
+				926FDC75126855BB005879D8 /* bigDonut.png */,
+				926FDCD612686684005879D8 /* bigDonut@2x.png */,
+				926FDC56126846A4005879D8 /* button.png */,
+				926FDC57126846A4005879D8 /* buttonPressed.png */,
+				926FDC2C1267FF11005879D8 /* background.png */,
+				926FDCE712686792005879D8 /* background@2x.png */,
+				920B37B5126914980054AF98 /* donut.png */,
+				920B37B6126914980054AF98 /* donut@2x.png */,
+				926FDC2E1267FF11005879D8 /* dudeStoppedLeft.gif */,
+				926FDC2F1267FF11005879D8 /* dudeStoppedRight.gif */,
+				926FDC301267FF11005879D8 /* icon.png */,
+				926FDCEC12686864005879D8 /* icon@2x.png */,
+				926FDC311267FF11005879D8 /* menu.png */,
+				926FDCD212686608005879D8 /* menu@2x.png */,
+				926FDC321267FF11005879D8 /* spike.png */,
+				926FDCE51268677F005879D8 /* spike@2x.png */,
+				926FDC331267FF11005879D8 /* spring.png */,
+				926FDCE812686792005879D8 /* spring@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		926FDD1812686E73005879D8 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				926FDD0A12686CA5005879D8 /* RotatableView.h */,
+				926FDD0B12686CA5005879D8 /* RotatableView.m */,
+				926FDC531268462E005879D8 /* ButtonView.h */,
+				926FDC541268462E005879D8 /* ButtonView.m */,
+				920B37D5126923090054AF98 /* InGameMenu.h */,
+				920B37D6126923090054AF98 /* InGameMenu.m */,
+				920B39AE126AF32D0054AF98 /* Location.h */,
+				920B39AF126AF32D0054AF98 /* Location.m */,
+			);
+			name = Types;
+			sourceTree = "<group>";
+		};
+		928E52B5127AC55A0025006B /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				928E52B6127AC55A0025006B /* JSON.h */,
+				928E52B7127AC55A0025006B /* NSObject+SBJSON.h */,
+				928E52B8127AC55A0025006B /* NSObject+SBJSON.m */,
+				928E52B9127AC55A0025006B /* NSString+SBJSON.h */,
+				928E52BA127AC55A0025006B /* NSString+SBJSON.m */,
+				928E52BB127AC55A0025006B /* SBJSON.h */,
+				928E52BC127AC55A0025006B /* SBJSON.m */,
+				928E52BD127AC55A0025006B /* SBJsonBase.h */,
+				928E52BE127AC55A0025006B /* SBJsonBase.m */,
+				928E52BF127AC55A0025006B /* SBJsonParser.h */,
+				928E52C0127AC55A0025006B /* SBJsonParser.m */,
+				928E52C1127AC55A0025006B /* SBJsonWriter.h */,
+				928E52C2127AC55A0025006B /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		92AACD62123C1BC70058B59D /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				92AACD63123C1BD60058B59D /* Spike.h */,
+				92AACD64123C1BD60058B59D /* Spike.m */,
+				92AACD81123C30AB0058B59D /* Donut.h */,
+				92AACD82123C30AB0058B59D /* Donut.m */,
+				926FDC6E1268543F005879D8 /* BigDonut.h */,
+				926FDC6F1268543F005879D8 /* BigDonut.m */,
+				920B38BF1269B8EA0054AF98 /* Level.h */,
+				920B38C01269B8EA0054AF98 /* Level.m */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Spring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Spring" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Spring;
+			productName = Spring;
+			productReference = 1D6058910D05DD3D006BFB54 /* Spring.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Spring" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Spring */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SpringViewController.xib in Resources */,
+				92CACD4A10686983006668E6 /* donutDudeSpringViewController.xib in Resources */,
+				926FDC341267FF11005879D8 /* background.png in Resources */,
+				926FDC361267FF11005879D8 /* dudeStoppedLeft.gif in Resources */,
+				926FDC371267FF11005879D8 /* dudeStoppedRight.gif in Resources */,
+				926FDC381267FF11005879D8 /* icon.png in Resources */,
+				926FDC391267FF11005879D8 /* menu.png in Resources */,
+				926FDC3A1267FF11005879D8 /* spike.png in Resources */,
+				926FDC3B1267FF11005879D8 /* spring.png in Resources */,
+				926FDC58126846A4005879D8 /* button.png in Resources */,
+				926FDC59126846A4005879D8 /* buttonPressed.png in Resources */,
+				926FDC65126850EB005879D8 /* vtcscreamitloud.ttf in Resources */,
+				926FDC76126855BB005879D8 /* bigDonut.png in Resources */,
+				926FDCD312686608005879D8 /* menu@2x.png in Resources */,
+				926FDCD712686684005879D8 /* bigDonut@2x.png in Resources */,
+				926FDCE61268677F005879D8 /* spike@2x.png in Resources */,
+				926FDCE912686792005879D8 /* background@2x.png in Resources */,
+				926FDCEA12686792005879D8 /* spring@2x.png in Resources */,
+				926FDCED12686864005879D8 /* icon@2x.png in Resources */,
+				920B37B7126914980054AF98 /* donut.png in Resources */,
+				920B37B8126914980054AF98 /* donut@2x.png in Resources */,
+				920B37C112691A1F0054AF98 /* menuBackground.png in Resources */,
+				920B37C212691A1F0054AF98 /* menuBackground@2x.png in Resources */,
+				928E5264127A3C020025006B /* winText.png in Resources */,
+				928E5265127A3C020025006B /* winText@2x.png in Resources */,
+				928E5344127AD2280025006B /* springLevels.json in Resources */,
+				82904EA912C2CEEF00A5E177 /* dudeRight.png in Resources */,
+				82904EAB12C2CF0200A5E177 /* dudeRight@2x.png in Resources */,
+				82904EE212C2E95C00A5E177 /* dudeLeft.png in Resources */,
+				82904EE312C2E95C00A5E177 /* dudeLeft@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SpringAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SpringViewController.m in Sources */,
+				92CACD4D10686997006668E6 /* donutDudeSpringViewController.m in Sources */,
+				9210C8CB122E054B004DF323 /* PauseMenu.m in Sources */,
+				92AACD65123C1BD60058B59D /* Spike.m in Sources */,
+				92AACD83123C30AB0058B59D /* Donut.m in Sources */,
+				926FDBF11267F026005879D8 /* YouWinView.m in Sources */,
+				926FDC551268462E005879D8 /* ButtonView.m in Sources */,
+				926FDC701268543F005879D8 /* BigDonut.m in Sources */,
+				926FDD0C12686CA5005879D8 /* RotatableView.m in Sources */,
+				920B37D7126923090054AF98 /* InGameMenu.m in Sources */,
+				920B37EA12695DE00054AF98 /* BeatLevelView.m in Sources */,
+				920B37F41269619D0054AF98 /* LevelView.m in Sources */,
+				920B38C11269B8EA0054AF98 /* Level.m in Sources */,
+				920B39B0126AF32D0054AF98 /* Location.m in Sources */,
+				928E5270127A3FBD0025006B /* InfoView.m in Sources */,
+				928E52C3127AC55A0025006B /* NSObject+SBJSON.m in Sources */,
+				928E52C4127AC55A0025006B /* NSString+SBJSON.m in Sources */,
+				928E52C5127AC55A0025006B /* SBJSON.m in Sources */,
+				928E52C6127AC55A0025006B /* SBJsonBase.m in Sources */,
+				928E52C7127AC55A0025006B /* SBJsonParser.m in Sources */,
+				928E52C8127AC55A0025006B /* SBJsonWriter.m in Sources */,
+				928E54C8127B93000025006B /* NewLevelAlert.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Spring_Prefix.pch;
+				INFOPLIST_FILE = "Spring-Info.plist";
+				PRODUCT_NAME = Spring;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Spring_Prefix.pch;
+				INFOPLIST_FILE = "Spring-Info.plist";
+				PRODUCT_NAME = Spring;
+			};
+			name = Release;
+		};
+		921DB24C110681A100F309A2 /* Distribute Fo Real */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Zach Galant";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "28B17FF9-5B44-4481-81A9-C70406BF1CB3";
+				SDKROOT = iphoneos;
+			};
+			name = "Distribute Fo Real";
+		};
+		921DB24D110681A200F309A2 /* Distribute Fo Real */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Spring_Prefix.pch;
+				INFOPLIST_FILE = "Spring-Info.plist";
+				PRODUCT_NAME = Spring;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = "Distribute Fo Real";
+		};
+		928E54F6127BE2C90025006B /* Ad Hoc Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = "Ad Hoc Distribute";
+		};
+		928E54F7127BE2C90025006B /* Ad Hoc Distribute */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Spring_Prefix.pch;
+				INFOPLIST_FILE = "Spring-Info.plist";
+				PRODUCT_NAME = Spring;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.1;
+			};
+			name = "Ad Hoc Distribute";
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				928E54F7127BE2C90025006B /* Ad Hoc Distribute */,
+				921DB24D110681A200F309A2 /* Distribute Fo Real */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Spring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				928E54F6127BE2C90025006B /* Ad Hoc Distribute */,
+				921DB24C110681A100F309A2 /* Distribute Fo Real */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}
