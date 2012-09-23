@@ -12,7 +12,7 @@
 #define kSpringHeight 400
 
 @implementation LevelView
-@synthesize spikes, donuts, spikeMoveRight, spikesMoveTogether, ID, levelDescription, numDonutsLeft, theLevels;
+@synthesize spikes, donuts, spikeMoveRight, spikesMoveTogether, ID, numDonutsLeft, theLevels;
 
 
 -(id)initWithID:(NSString *)levelID {
@@ -25,14 +25,6 @@
 		
 		NSUserDefaults *prefs = [NSUserDefaults standardUserDefaults];
 		theLevels = [prefs objectForKey:@"levels"];
-		//if (theLevels == nil || (NSNull *)theLevels == [NSNull null]) {
-//			NSLog(@"Downloading levels from the internet");
-//			NSString *newLevels = [NSString stringWithContentsOfURL:[NSURL URLWithString:@"http://www.zachgalant.com/springLevels.json"]];
-//			if (newLevels != nil && (NSNull *)newLevels != [NSNull null]) {
-//				theLevels = newLevels;
-//				[prefs setObject:theLevels forKey:@"levels"];
-//			}
-//		}
 	}
 	return self;
 }
@@ -113,12 +105,7 @@
  */
 -(void)createSpikes {
 	int curLevel = [ID intValue];
-	int i=0;
-	
-	//Location *p;
-	//	for (p in levelDescription.spikes) {
-	//		[self putSpikeNumber:i++ at:CGPointMake(p.x, p.y)];
-	//	}
+	int i = 0;
 	
 	NSDictionary *levels = [theLevels JSONValue];
 	
@@ -138,58 +125,6 @@
 		NSString *y = [sd objectForKey:@"y"];
 		[self putSpikeNumber:s at:CGPointMake([x intValue], [y intValue])];
 	}
-	
-	
-	
-	/*
-	switch (curLevel) {
-		case 7:
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 - 170)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40,self.bounds.size.height/2 - 170)];
-			break;
-		case 8:
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 - 120)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, self.bounds.size.height/2 + 10)];
-			break;
-		case 9:
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 - 120)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, self.bounds.size.height/2 + 10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 - 60, kSpringHeight-10)];
-			break;
-		case 10:
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 - 170)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, self.bounds.size.height/2 - 120)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 - 60, kSpringHeight-10)];
-			break;
-		case 11:
-			[self putSpikeNumber:i++ at:CGPointMake(0, kSpringHeight-10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, kSpringHeight-10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 - 60, self.bounds.size.height/2 - 90)];
-			break;
-		case 12:
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 + 10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, self.bounds.size.height/2 + 10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 - 60, self.bounds.size.height/2 - 170)];
-			break;
-		case 13:
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 + 10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, kSpringHeight-10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, self.bounds.size.height/2 - 170)];
-			break;
-		case 14:
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 + 10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 + 40, self.bounds.size.height/2 + 10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width/2 - 60, self.bounds.size.height/2 - 90)];
-			break;
-		case 15:
-			spikesMoveTogether = NO;
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 - 120)];
-			[self putSpikeNumber:i++ at:CGPointMake(0, self.bounds.size.height/2 + 10)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width, self.bounds.size.height/2 - 120)];
-			[self putSpikeNumber:i++ at:CGPointMake(self.bounds.size.width, self.bounds.size.height/2 + 10)];
-			break;
-	}
-	*/
 }
 
 

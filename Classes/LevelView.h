@@ -9,7 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "Donut.h"
 #import "Spike.h"
-#import "Level.h"
 #import "Location.h"
 
 
@@ -19,7 +18,6 @@
 	BOOL spikeMoveRight;
 	BOOL spikesMoveTogether;
 	NSString *ID;
-	Level *levelDescription;
 	int numDonutsLeft;
 	NSString *theLevels;
 }
@@ -29,7 +27,6 @@
 @property(nonatomic) BOOL spikeMoveRight;
 @property(nonatomic) BOOL spikesMoveTogether;
 @property(nonatomic, retain) NSString *ID;
-@property(nonatomic, retain) Level *levelDescription;
 @property(nonatomic) int numDonutsLeft;
 @property(nonatomic, retain) NSString *theLevels;
 

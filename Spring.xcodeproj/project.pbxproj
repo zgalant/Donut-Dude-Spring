@@ -26,7 +26,6 @@
 		920B37D7126923090054AF98 /* InGameMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B37D6126923090054AF98 /* InGameMenu.m */; };
 		920B37EA12695DE00054AF98 /* BeatLevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B37E912695DE00054AF98 /* BeatLevelView.m */; };
 		920B37F41269619D0054AF98 /* LevelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B37F31269619D0054AF98 /* LevelView.m */; };
-		920B38C11269B8EA0054AF98 /* Level.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B38C01269B8EA0054AF98 /* Level.m */; };
 		920B39B0126AF32D0054AF98 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 920B39AF126AF32D0054AF98 /* Location.m */; };
 		9210C8CB122E054B004DF323 /* PauseMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 9210C8CA122E054B004DF323 /* PauseMenu.m */; };
 		926FDBF11267F026005879D8 /* YouWinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 926FDBF01267F026005879D8 /* YouWinView.m */; };
@@ -96,8 +95,6 @@
 		920B37E912695DE00054AF98 /* BeatLevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeatLevelView.m; sourceTree = "<group>"; };
 		920B37F21269619D0054AF98 /* LevelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LevelView.h; sourceTree = "<group>"; };
 		920B37F31269619D0054AF98 /* LevelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LevelView.m; sourceTree = "<group>"; };
-		920B38BF1269B8EA0054AF98 /* Level.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Level.h; sourceTree = "<group>"; };
-		920B38C01269B8EA0054AF98 /* Level.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Level.m; sourceTree = "<group>"; };
 		920B39AE126AF32D0054AF98 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
 		920B39AF126AF32D0054AF98 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		9210C8C9122E054B004DF323 /* PauseMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseMenu.h; sourceTree = "<group>"; };
@@ -337,8 +334,6 @@
 				92AACD82123C30AB0058B59D /* Donut.m */,
 				926FDC6E1268543F005879D8 /* BigDonut.h */,
 				926FDC6F1268543F005879D8 /* BigDonut.m */,
-				920B38BF1269B8EA0054AF98 /* Level.h */,
-				920B38C01269B8EA0054AF98 /* Level.m */,
 			);
 			name = Objects;
 			sourceTree = "<group>";
@@ -447,7 +442,6 @@
 				920B37D7126923090054AF98 /* InGameMenu.m in Sources */,
 				920B37EA12695DE00054AF98 /* BeatLevelView.m in Sources */,
 				920B37F41269619D0054AF98 /* LevelView.m in Sources */,
-				920B38C11269B8EA0054AF98 /* Level.m in Sources */,
 				920B39B0126AF32D0054AF98 /* Location.m in Sources */,
 				928E5270127A3FBD0025006B /* InfoView.m in Sources */,
 				928E52C3127AC55A0025006B /* NSObject+SBJSON.m in Sources */,
@@ -467,7 +461,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/Projects/iPhone/Spring/Entitlements.plist";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -482,7 +476,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/Projects/iPhone/Spring/Entitlements.plist";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Spring_Prefix.pch;
@@ -511,7 +505,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/Projects/iPhone/Spring/Entitlements.plist";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -540,7 +534,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/School/iPhone/Spring/Entitlements.plist";
+				CODE_SIGN_ENTITLEMENTS = "~/Dropbox/Projects/iPhone/Spring/Entitlements.plist";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
